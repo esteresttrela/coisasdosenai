@@ -1,0 +1,5 @@
+verdadeiro = true
+falso = false 
+
+print(type(verdadeiro))
+print(type(falso))
