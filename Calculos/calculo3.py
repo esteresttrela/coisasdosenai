@@ -6,5 +6,5 @@ e = 10
 f = 4 
 g = 2 
 
-resultado = (a % b) (* c) + d - e * f / g
+resultado = a % b * c + d - e * f / g
 print(resultado)
