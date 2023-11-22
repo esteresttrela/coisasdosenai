@@ -1,6 +1,6 @@
 class Fila:
    
-    #Definição de uma fila sem tamnho e sem elementos
+    #Definição de uma fila sem tamanho e sem elementos
     def __init__(self):
         self.itens = []
    
@@ -33,9 +33,21 @@ fila.enfileirar("D")
 
 
 tamanho = fila.tamanho()
+print("\n\n\nTamanho da fila: ", tamanho)
+
+
+valor = fila.desenfilerar()
+print ("Item removido: ", valor)
+
+
+tamanho = fila.tamanho()
 print("Tamanho da fila: ", tamanho)
 
 
 valor = fila.desenfilerar()
-print ("Item removido")
+print ("Item removido: ", valor)
+
+
+fila_vazia = fila.esta_vazia()
+print("\n\n\nA fila está vazia? ", fila_vazia)
 
